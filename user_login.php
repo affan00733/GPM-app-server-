@@ -30,14 +30,6 @@ $check =mysqli_query($con,$Sql_Query);
 
 if(isset($check)){
 
-//  $SuccessLoginMsg = 'Data Matched';
- 
-//  // Converting the message into JSON format.
-// $SuccessLoginJson = json_encode($SuccessLoginMsg);
- 
-// // Echo the message.
-//  echo $SuccessLoginJson ; 
- 
  $dbdata = array();
 
 //Fetch into associative array
@@ -52,9 +44,7 @@ echo  $dataLogin;
  
 
  }
- elseif(isset($check)){
 
- }
  else{
  
  // If the record inserted successfully then show the message.
